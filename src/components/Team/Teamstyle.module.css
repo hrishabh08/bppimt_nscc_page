@@ -1,0 +1,39 @@
+.team_container {
+    width: 66rem;
+}
+
+@media screen and (max-width: 1238px) and (min-width: 1024px) {
+    .team_container {
+        width: 52rem;
+    }
+}
+
+/* @media screen and (max-width: 1023px) and (min-width: 913px) {
+    .team_container {
+        width: 48rem;
+    }
+} */
+
+@media screen and (max-width: 1024px) and (min-width: 796px) {
+    .team_container {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 795px) and (min-width: 500px) {
+    .team_container {
+        width: 26rem;
+    }
+}
+
+@media screen and (max-width: 499px) and (min-width: 380px) {
+    .team_container {
+        width: 14rem;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .team_container {
+        width: 13rem;
+    }
+}
