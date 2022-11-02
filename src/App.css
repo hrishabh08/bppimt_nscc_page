@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background: url("../src/assets/images/background.jpg");
+}
+
+.slick-prev{
+    left: -42px !important;
+    margin: 0 !important; 
+}
+
+.slick-next{
+    right: -42px !important;
+    margin: 0 !important; 
+}
+
+@media screen and (max-width: 559px) and (min-width: 500px) {
+    .slick-prev{
+        left: -30px !important;
+    }
+    
+    .slick-next{
+        right: -30px !important;
+    }
+}
+
+/* ////////////////// */
+
+.alice-carousel__prev-btn{
+    position: absolute;
+    left: -60px;
+    top: 45%;
+    color: #fff;
+    cursor: pointer;
+    width: 25px!important;
+    display: block!important;
+    padding: 0px!important;
+    text-align: left!important;
+}
+
+.alice-carousel__next-btn{
+    position: absolute;
+    right: -60px;
+    top: 45%;
+    color: #fff;
+    cursor: pointer;
+    width: 25px!important;
+    display: block!important;
+    padding: 0px!important;
+    text-align: right!important;
+}
