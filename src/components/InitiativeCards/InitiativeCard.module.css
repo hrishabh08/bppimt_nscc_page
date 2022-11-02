@@ -1,0 +1,75 @@
+article.card {
+  width: 350px;
+  height: 350px;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+  overflow: hidden;
+}
+
+article.card .infos {
+  width: auto;
+  height: 350px;
+  position: relative;
+  padding: 14px 24px;
+  background: #fff;
+  transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card .infos .title {
+  position: relative;
+  margin: 10px 0;
+  letter-spacing: 1.75px;
+  color: #152536;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px #32577f;
+}
+
+article.card .infos .date, article.card .infos .seats {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(21, 37, 54, .7);
+  font-family: 'lato', sans-serif;
+}
+article.card .infos .seats {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card .infos .txt {
+  font-family: 'roboto', sans-serif;
+  line-height: 2;
+  font-size: 0.95rem;
+  color: rgba(21, 37, 54, .7);
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+
+article.card:hover .infos {
+  transform: translateY(-260px);
+}
+article.card:hover .infos .seats, article.card:hover .infos .txt, article.card:hover .infos .details {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 450px) {
+  article.card {
+    height: 350px;
+    width: 320px;
+  }
+
+  article.card:hover .infos {
+    transform: translateY(0px);
+  }
+
+}
+
+a {
+  text-decoration: none;
+}

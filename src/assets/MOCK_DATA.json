@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Healthy Environment",
+        "sub_title": "In the college",
+        "description": "We aim to create a flourishing coding environment in our college by building a community of like-minded coders who help each other grow and learn."
+    },
+    {
+        "id": 2,
+        "title": "Showcase talent",
+        "sub_title": "Wherever unrecognized",
+        "description": "We aim to look out for and reward talented individuals, granting them a platform to showcase their skills and expertise."
+    },
+    {
+        "id": 3,
+        "title": "Organize contests",
+        "sub_title": "To Boost confidence",
+        "description": "We aim to hold regular events such as coding contests in our college, where students from various departments and years can join and get experience in real world competitive coding."
+    }
+]
