@@ -1,0 +1,25 @@
+.Achievements-container {
+  width: 100%;
+  /* height: 38.18rem; */
+  box-sizing: border-box;
+  margin: auto;
+}
+
+@media all and (min-width: 900px) {
+  .Up-align {
+  
+    transition: all 0.2s ease-in-out;
+  }
+  .Down-align {
+   
+    transition: all 0.25s ease-in-out;
+  }
+  .Up-align:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+  }
+  .Down-align:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+  }
+}
